@@ -56,3 +56,29 @@ margin-top: 10%;
     grid-column-end: 3;
 
 }
+.textaobrazek{
+    background: linear-gradient(to right,#ABA8BF, #F5E9F3);
+    width: 288;
+height: 539;
+top: 1308px;
+left: 51px;
+border-radius: 10px;
+ align-items: center;
+ justify-content: center;
+}
+#obrazekjedna{
+    width: 288;
+    height: 283;
+    top: 1037px;
+    left: 51px;
+    border-radius: 10px;
+    
+}
+#textjedna{
+    width: 288;
+height: 539;
+top: 1308px;
+left: 51px;
+border-radius: 10px;
+
+}
