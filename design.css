@@ -1,0 +1,53 @@
+.zacatecniFotky{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+}
+.zacatecniFotky>img{
+    padding: 6px;
+}
+.grid_i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+
+}
+.grid_i>p{
+    font-family: Roboto;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+width: 80%;
+
+}
+.grid_c{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.grid_i:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-family: Roboto;
+font-weight: 700;
+font-size: 28px;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+color:#7A9D8C ;
+}
+.grid_i:nth-child(2){
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.grid_i:nth-child(3){
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+}
