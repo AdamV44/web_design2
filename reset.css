@@ -1,0 +1,51 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove default list styles */
+ul, ol {
+    list-style: none;
+}
+
+/* Remove default text decoration */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Reset typography */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000;
+    background-color: #fff;
+}
+
+/* Reset heading styles */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Remove border and outline from elements */
+button, input, textarea {
+    border: none;
+    outline: none;
+    font-family: inherit;
+}
+
+/* Ensure media elements are responsive */
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Remove default button styling */
+button {
+    background: none;
+    cursor: pointer;
+}
