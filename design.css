@@ -23,6 +23,8 @@ line-height: 16px;
 letter-spacing: 0%;
 text-align: center;
 width: 80%;
+margin-top: 2%;
+margin-bottom: 5%;
 
 }
 .grid_c{
@@ -30,6 +32,7 @@ width: 80%;
     grid-template-columns: 1fr 1fr;
     margin-left: 10%;
     margin-right: 10%;
+    
 }
 .grid_i:nth-child(1){
     grid-column-start: 1;
@@ -41,6 +44,8 @@ line-height: 32px;
 letter-spacing: 0%;
 text-align: center;
 color:#7A9D8C ;
+margin-bottom: 10%;
+margin-top: 10%;
 }
 .grid_i:nth-child(2){
     grid-column-start: 1;
