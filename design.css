@@ -58,27 +58,29 @@ margin-top: 10%;
 }
 .textaobrazek{
     background: linear-gradient(to right,#ABA8BF, #F5E9F3);
-    width: 288;
-height: 539;
-top: 1308px;
-left: 51px;
+    width: 80%;
+margin-top: 10%;
+margin-left: 10%;
 border-radius: 10px;
  align-items: center;
  justify-content: center;
 }
-#obrazekjedna{
-    width: 288;
-    height: 283;
-    top: 1037px;
+.obrazekjedna{
+    width: 100%;
     left: 51px;
     border-radius: 10px;
     
 }
-#textjedna{
-    width: 288;
+.textjedna{
+    width: 70%;
 height: 539;
 top: 1308px;
-left: 51px;
+margin-left: 15%;
 border-radius: 10px;
+margin-top: 5%;
+margin-bottom: 10%;
 
+}
+#p{
+    margin-bottom: 10%;
 }
