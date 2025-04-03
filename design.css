@@ -194,32 +194,48 @@ padding-bottom: 20%;
     }
     .textjedna{
         width: 70%;
-    border-radius: 10px;
-    align-content: center;
+    padding-right: 15%;
+    font-family: Roboto;
+    margin: 0px;
+
+    padding-left: 2%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-top: 2%;
+
+
     
     }
     #p{
-        margin-bottom: 10%;
+        font-family: Roboto;
     }
+
     .textaobrazekdva{
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
         width: 80%;
     margin-top: 10%;
     margin-left: 10%;
+    height: 6%;
     border-radius: 10px;
      align-items: center;
      justify-content: center;
     }
     .obrazekdva{
-        width: 100%;
+        width: 70%;
+        height: 100%;
         border-radius: 10px;
+        margin-top: 0%;
+        padding-top: 0%;
         
     }
     .textdva{
         width: 100%;
-    border-radius: 10px;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    padding-bottom: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-top: 0%;
     
     }
   }
